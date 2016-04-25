@@ -1,22 +1,30 @@
-#!/bin/sh
+#!/bin/bash
 
 PACKAGE=$1
-VERSIONS=$(npm view ronn versions | tr -d "'[,]")
+VERSIONS=$(npm view $PACKAGE versions | tr -d "'[,]")
 
 cd ../packages
 
-if [ -d "$PACKAGE" ]; then
-  echo "Directory $PACKAGE is already exists"
+if [ -z "$PACKAGE" ]; then
+  echo -e "missing package name parameter\nusage: ./createFixture.sh <packgeName>"
   exit 1
 fi
 
-mkdir $PACKAGE && cd $PACKAGE
+mkdir -p $PACKAGE && cd $PACKAGE
 
-echo "Creating version folders for $PACKAGE"
+echo "Creating fixture for package: $PACKAGE"
 
-for version in $VERSIONS; do mkdir $version && cd $version &&
-    npm init -f && npm install $PACKAGE@$version --save &&
-    find . -name '*node_modules' -mindepth 2 -type d -exec rm -rf {} \; &&
+for version in $VERSIONS;
+    do
+    if [ -d "$version" ]; then
+      echo "version $version of package $PACKAGE is already exists"
+      continue
+    fi
+    mkdir $version
+    cd $version
+    npm init -f
+    npm install $PACKAGE@$version --save
+    find . -name '*node_modules' -mindepth 2 -type d -exec rm -rf {} \;
     cd ..;
 done
 
