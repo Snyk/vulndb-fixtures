@@ -1,9 +1,10 @@
 #!/bin/bash
 
+CURRENT_DIR=`dirname $0`
 PACKAGE=$1
 VERSIONS=$(npm view $PACKAGE versions | tr -d "'[,]")
 
-cd ../packages
+cd $CURRENT_DIR/../packages
 
 if [ -z "$PACKAGE" ]; then
   echo -e "missing package name parameter\nusage: ./createFixture.sh <packgeName>"
