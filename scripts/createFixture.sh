@@ -23,9 +23,7 @@ for version in $VERSIONS;
     fi
     mkdir $version
     cd $version
-    npm init -f
-    npm install $PACKAGE@$version --save
-    find . -name '*node_modules' -mindepth 2 -type d -exec rm -rf {} \;
+    wget -qO- https://registry.npmjs.org/$PACKAGE/-/$PACKAGE-$version.tgz | tar xvz --strip 1
     cd ..;
 done
 
