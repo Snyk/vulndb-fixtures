@@ -1,0 +1,37 @@
+{
+  "name": "electron-packager",
+  "version": "4.0.2",
+  "description": "package your electron app in OS executables (.app, .exe, etc) via JS or CLI",
+  "main": "index.js",
+  "bin": {
+    "electron-packager": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/electron-packager.git"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/maxogden/electron-packager/issues"
+  },
+  "homepage": "https://github.com/maxogden/electron-packager",
+  "dependencies": {
+    "asar": "^0.6.1",
+    "electron-download": "^1.0.0",
+    "extract-zip": "^1.0.3",
+    "minimist": "^1.1.1",
+    "mkdirp": "^0.5.0",
+    "mv": "^2.0.3",
+    "ncp": "^2.0.0",
+    "plist": "^1.1.0",
+    "rcedit": "^0.3.0",
+    "rimraf": "^2.3.2"
+  },
+  "devDependencies": {
+    "standard": "^3.3.2"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
