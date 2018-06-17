@@ -1,0 +1,7 @@
+*node_modules/
+*.tap
+results.xml
+sftp-config.json
+npm-debug.log
+*.DS_Store
+lib-cov

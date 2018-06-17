@@ -1,0 +1,33 @@
+{
+  "name": "hoek",
+  "description": "General purpose node utilities",
+  "version": "0.0.18",
+  "author": "Eran Hammer <eran@hueniverse.com> (http://hueniverse.com)",
+  "contributors":[
+    "Van Nguyen <the.gol.effect@gmail.com>"
+  ],
+  "repository": "git://github.com/walmartlabs/hoek",
+  "main": "index",
+  "keywords": [
+    "utilities"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "async": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.2.x"
+  },
+  "scripts": {
+    "test": "make test && make unit"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/walmartlabs/hoek/raw/master/LICENSE"
+    }
+  ]
+}

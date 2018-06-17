@@ -1,0 +1,27 @@
+{
+  "name": "hoek",
+  "description": "General purpose node utilities",
+  "version": "1.5.2",
+  "repository": "git://github.com/spumko/hoek",
+  "main": "index",
+  "keywords": [
+    "utilities"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lab": "1.x.x"
+  },
+  "scripts": {
+    "test": "make test-cov"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/spumko/hoek/raw/master/LICENSE"
+    }
+  ]
+}
