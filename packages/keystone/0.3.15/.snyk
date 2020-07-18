@@ -1,0 +1,325 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-authorization > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-compute > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-dns > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-insights > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-keyvault > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-network > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-resource > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-storage > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-website > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-compute > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-hdinsight > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-mgmt > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-network > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sb > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-scheduler > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sql > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-storage > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-store > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-subscription > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-trafficmanager > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-website > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-gallery > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-monitoring > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-sb > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-scheduler > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-storage > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-keyvault > azure-common > request > hawk:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:http-signature:20150122':
+    - azure > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-storage > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-authorization > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-compute > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-dns > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-insights > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-keyvault > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-network > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-resource > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-storage > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-website > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-compute > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-hdinsight > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-mgmt > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-network > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sb > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-scheduler > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sql > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-storage > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-store > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-subscription > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-trafficmanager > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-website > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-gallery > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-monitoring > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-sb > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-scheduler > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-keyvault > azure-common > request > http-signature:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:lodash:20180130':
+    - asyncdi > lodash:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:mime:20170907':
+    - azure > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-storage > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-storage > request > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - embedly > superagent > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-storage > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-keyvault > azure-common > request > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-authorization > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-compute > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-dns > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-insights > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-keyvault > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-network > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-resource > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-storage > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-website > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-compute > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-hdinsight > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-mgmt > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-network > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sb > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-scheduler > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sql > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-storage > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-store > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-subscription > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-trafficmanager > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-website > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-gallery > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-monitoring > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-sb > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-scheduler > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-keyvault > azure-common > request > form-data > mime:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:moment:20160126':
+    - azure > azure-arm-insights > moment:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-website > moment:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-website > moment:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-monitoring > moment:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-scheduler > moment:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:qs:20140806-1':
+    - azure > azure-storage > request > qs:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-keyvault > azure-common > request > qs:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:request:20160119':
+    - azure > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-authorization > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-compute > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-dns > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-insights > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-keyvault > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-network > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-resource > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-storage > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-website > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-compute > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-hdinsight > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-mgmt > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-network > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sb > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-scheduler > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sql > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-storage > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-store > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-subscription > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-trafficmanager > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-website > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-gallery > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-monitoring > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-sb > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-scheduler > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-storage > request:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-keyvault > azure-common > request:
+        patched: '2020-07-18T21:15:50.514Z'
+  'npm:tunnel-agent:20170305':
+    - azure > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-authorization > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-compute > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-dns > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-insights > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-keyvault > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-network > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-resource > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-storage > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-arm-website > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-compute > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-hdinsight > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-mgmt > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-network > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sb > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-scheduler > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-sql > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-storage > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-store > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-subscription > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-trafficmanager > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-asm-website > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-gallery > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-monitoring > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-sb > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
+    - azure > azure-scheduler > azure-common > request > tunnel-agent:
+        patched: '2020-07-18T21:15:50.514Z'
