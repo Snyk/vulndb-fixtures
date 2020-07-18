@@ -20,13 +20,13 @@
   "dependencies": {
     "hoek": "^1.5.x",
     "boom": "^2.2.x",
-    "joi": "^2.8.x",
-    "catbox": "^2.1.x",
-    "catbox-memory": "1.x.x",
+    "joi": "^8.1.0",
+    "catbox": "^7.1.1",
+    "catbox-memory": "2.0.2",
     "shot": "1.x.x",
     "nipple": "^2.4.x",
-    "cryptiles": "2.x.x",
-    "iron": "2.x.x",
+    "cryptiles": "3.0.0",
+    "iron": "4.0.1",
     "async": "0.2.x",
     "multiparty": "3.2.x",
     "mime": "1.2.x",
@@ -34,7 +34,8 @@
     "optimist": "0.6.x",
     "negotiator": "0.4.x",
     "semver": "2.2.x",
-    "qs": "0.6.x"
+    "qs": "0.6.x",
+    "snyk": "^1.362.1"
   },
   "devDependencies": {
     "lab": "1.x.x",
@@ -47,7 +48,9 @@
     "hapi": "./bin/hapi"
   },
   "scripts": {
-    "test": "make test-cov"
+    "test": "make test-cov",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "licenses": [
     {
@@ -101,5 +104,6 @@
   ],
   "directories": {},
   "_shasum": "fd2c0f0ac2655896d899d1b9ec9dfd8e3135aab7",
-  "_resolved": "https://registry.npmjs.org/hapi/-/hapi-3.0.2.tgz"
+  "_resolved": "https://registry.npmjs.org/hapi/-/hapi-3.0.2.tgz",
+  "snyk": true
 }
