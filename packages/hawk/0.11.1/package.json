@@ -26,7 +26,7 @@
     "hoek": "0.7.x",
     "boom": "0.3.x",
     "cryptiles": "0.1.x",
-    "sntp": "0.1.x"
+    "sntp": "0.2.4"
   },
   "devDependencies": {
     "lab": "0.0.x",
