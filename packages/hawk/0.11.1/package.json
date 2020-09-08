@@ -23,7 +23,7 @@
     "node": "0.8.x"
   },
   "dependencies": {
-    "hoek": "0.7.x",
+    "hoek": "0.10.0",
     "boom": "0.3.x",
     "cryptiles": "0.1.x",
     "sntp": "0.1.x"
