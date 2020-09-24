@@ -28,7 +28,7 @@
     "cryptiles": "2.x.x",
     "iron": "2.x.x",
     "topo": "1.x.x",
-    "kilt": "^1.1.x",
+    "kilt": "^2.0.1",
     "async": "0.8.x",
     "multiparty": "3.2.x",
     "mime": "1.2.x",
@@ -36,7 +36,8 @@
     "optimist": "0.6.x",
     "negotiator": "0.4.x",
     "semver": "2.3.x",
-    "qs": "0.6.x"
+    "qs": "0.6.x",
+    "snyk": "^1.399.1"
   },
   "devDependencies": {
     "lab": "3.x.x",
@@ -48,7 +49,9 @@
     "hapi": "./bin/hapi"
   },
   "scripts": {
-    "test": "make test-cov"
+    "test": "make test-cov",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "licenses": [
     {
@@ -94,5 +97,6 @@
     "tarball": "http://registry.npmjs.org/hapi/-/hapi-6.0.2.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/hapi/-/hapi-6.0.2.tgz"
+  "_resolved": "https://registry.npmjs.org/hapi/-/hapi-6.0.2.tgz",
+  "snyk": true
 }
