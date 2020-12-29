@@ -35,7 +35,7 @@
     "isobject": "^2.1.0",
     "regex-not": "^1.0.0",
     "repeat-element": "^1.1.2",
-    "snapdragon": "^0.8.1",
+    "snapdragon": "^0.11.0",
     "to-regex": "^3.0.1"
   },
   "devDependencies": {
