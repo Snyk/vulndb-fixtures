@@ -24,7 +24,7 @@
     "fs-extra": "^0.26.5",
     "get-package-info": "0.0.2",
     "minimist": "^1.1.1",
-    "plist": "^1.1.0",
+    "plist": "^3.0.2",
     "rcedit": "^0.5.0",
     "resolve": "^1.1.6",
     "run-series": "^1.1.1"
