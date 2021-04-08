@@ -10,7 +10,7 @@
   , "dependencies": {
         "ws": "0.4.20"
       , "xmlhttprequest": "1.4.2"
-      , "debug": "0.6.0"
+      , "debug": "0.8.1"
     }
   , "devDependencies": {
         "mocha": "*"
