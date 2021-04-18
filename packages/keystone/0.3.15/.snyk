@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > azure-asm-subscription > azure-common > request > hawk:
+        patched: '2021-04-18T21:14:47.473Z'
+  'npm:http-signature:20150122':
+    - azure > azure-asm-subscription > azure-common > request > http-signature:
+        patched: '2021-04-18T21:14:47.473Z'
+  'npm:mime:20170907':
+    - azure > azure-asm-subscription > azure-common > request > form-data > mime:
+        patched: '2021-04-18T21:14:47.473Z'
+  'npm:request:20160119':
+    - azure > azure-asm-subscription > azure-common > request:
+        patched: '2021-04-18T21:14:47.473Z'
+  'npm:tunnel-agent:20170305':
+    - azure > azure-asm-subscription > azure-common > request > tunnel-agent:
+        patched: '2021-04-18T21:14:47.473Z'
