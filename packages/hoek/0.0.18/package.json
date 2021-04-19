@@ -15,7 +15,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "async": "0.1.x"
+    "async": "0.9.2"
   },
   "devDependencies": {
     "mocha": "1.x.x",
