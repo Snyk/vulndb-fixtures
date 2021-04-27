@@ -25,7 +25,7 @@
   "dependencies": {
     "has-cors": "1.1.0",
     "ws": "1.0.1",
-    "xmlhttprequest-ssl": "1.5.1",
+    "xmlhttprequest-ssl": "1.6.1",
     "component-emitter": "1.1.2",
     "indexof": "0.0.1",
     "engine.io-parser": "1.2.4",
