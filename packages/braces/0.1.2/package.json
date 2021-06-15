@@ -61,6 +61,6 @@
     "sh"
   ],
   "dependencies": {
-    "expand-range": "^0.1.0"
+    "expand-range": "^0.3.1"
   }
 }
